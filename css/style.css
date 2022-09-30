@@ -269,10 +269,26 @@ section{
     text-align: center;
     border:var(--border);    
 }
+.menu .box{
+    border-radius: 20px;
+    
+}
+
+.menu .box:hover{
+    background-color:rgb(254, 224, 147);
+    border-radius: 20px;
+    color: #13131a;
+    opacity: 1;
+border: #2e2101;
+box-shadow: #f6f5f3;
+}
 
 .menu .box-container .box img{
     height: 10rem;
 }
+.menu .box-container .box img:hover{
+    transform: scale(1.2);
+  }
 
 .menu .box-container .box h3{
     color: #fff;
@@ -466,6 +482,12 @@ z-index: 99;
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
+}
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .contact .row form h3{
