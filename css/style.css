@@ -274,12 +274,14 @@ section{
 .menu .box-container .box{
     padding:5rem;
     text-align: center;
-    border:var(--border);    
+    border:var(--border); 
+    border-radius: 20px;   
 }
 
 .menu .box-container .box img{
     height: 10rem;
 }
+
 
 .menu .box-container .box h3{
     color: #fff;
@@ -300,11 +302,13 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:#fff;
+    background:rgb(246, 235, 176);
+    border-radius: 20px;
 }
 
 .menu .box-container .box:hover > *{
     color:var(--black);
+    
 }
 
 .products .box-container{
@@ -559,7 +563,12 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
+.contact .row .map{
+    border-radius: 20px;
+}
+.inputBox{
+    border-radius: 10px;
+}
 
 
 
