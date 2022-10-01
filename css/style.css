@@ -87,6 +87,12 @@ section{
     z-index: 1000;
 }
 
+.header .logo:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 8px;
+    transition: none;
+}
+
 .header .logo img{
     height: 6rem;
 }
@@ -103,15 +109,28 @@ section{
     padding-bottom: .5rem;
 }
 
-.header .icons div{
+.header .navbar a:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 8px;
+    transition: none;
+}
+
+.header .icons button{
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
+    background: none;
 }
 
-.header .icons div:hover{
+.header .icons button:hover{
     color:var(--main-color);
+}
+
+.header .icons button:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 8px;
+    transition: none;
 }
 
 #menu-btn{
