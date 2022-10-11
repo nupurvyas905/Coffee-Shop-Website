@@ -60,6 +60,12 @@ section{
     color:var(--main-color);
     text-transform: uppercase;
 }
+.btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn{
     margin-top: 1rem;
@@ -69,6 +75,7 @@ section{
     color:#fff;
     background: var(--main-color);
     cursor: pointer;
+    margin-inline: auto;
 }
 
 .btn:hover{
