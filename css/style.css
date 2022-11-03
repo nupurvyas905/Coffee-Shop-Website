@@ -110,9 +110,9 @@ section{
     margin-left: 2rem;
 }
 
-.header .icons div:hover{
+/* .header .icons div:hover{
     color:var(--main-color);
-}
+} */
 
 #menu-btn{
     display: none;
